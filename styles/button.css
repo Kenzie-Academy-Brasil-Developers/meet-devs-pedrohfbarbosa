@@ -1,0 +1,73 @@
+.img-search {
+    background-image: url(../assets/search.svg);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-position: center;
+    border: none;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    cursor: pointer;
+    border-radius: var(--radius-1);
+}
+
+.img-search:hover {
+    background-color: var(--color-grey-4);
+}
+
+.card button {
+    width: 28px;
+    height: 28px;
+    border: none;
+    border-radius: var(--radius-0);
+    cursor: pointer;
+}
+
+.btn-mail {
+    background-image: url(../assets/envelope.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.btn-mail:hover {
+    background-color: var(--color-grey-3);
+}
+
+.btn-phone {
+    background-image: url(../assets/phone.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.btn-phone:hover {
+    background-color: var(--color-grey-3);
+}
+
+.btn-favorite {
+    background-image: url(../assets/heart.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.btn-bg-grey {
+    background-color:  var(--color-grey-2);
+}
+
+.btn-bg-grey:hover {
+    background-color: var(--color-heart);
+}
+
+.btn-bg-color-heart {
+    background-color: var(--color-heart);
+}
+
+.btn-bg-color-heart:hover {
+    background-color: var(--color-grey-2);
+}
+
+

@@ -1,0 +1,27 @@
+.title-1 {
+    font-family: var(--font-family-2);
+    font-weight: 500;
+    font-size: var(--font-size-1);
+    color: var(--color-white-fixed);
+}
+
+.title-2 {
+    font-weight: 600;
+    font-size: var(--font-size-2);
+}
+
+.font-1 {
+    font-weight: 400;
+    font-size: var(--font-size-2);
+}
+
+.font-2 {
+    font-weight: 400;
+    font-size: var(--font-size-4);
+}
+
+.font-label {
+    font-weight: 600;
+    font-size: var(--font-size-3);;
+}
+

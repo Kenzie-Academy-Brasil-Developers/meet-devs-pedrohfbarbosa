@@ -5,11 +5,39 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="../../styles/globalStyles.css">
+  <link rel="stylesheet" href="../../styles/color.css">
+  <link rel="stylesheet" href="../../styles/input.css">
+  <link rel="stylesheet" href="../../styles/font.css">
+  <link rel="stylesheet" href="../../styles/button.css">
+  <link rel="stylesheet" href="../../styles/card.css">
+  <link rel="stylesheet" href="./index.css">
+  <title>Meet Devs</title>
 </head>
 
 <body>
+  <header class="container header">
+    <div class="logo">
+      <h1>Meet devs</h1>
+    </div>
+    <div class="inputs-wrapper">
+      <input class="input-radio" type="radio" id="all-users" name="user-type" value="all-users">
+      <label class="labels bg-color-grey-1 color-grey-4" id="label-all" for="all-users">Todos</label>
+      <input class="input-radio" type="radio" id="favorite-users" name="user-type" value="favorite-users">
+      <label class="labels bg-color-grey-1 color-grey-4" id="label-favorite" for="favorite-users">Meus favoritos</label>
+    </div>
+  </header>
+  <aside class="search-wrapper container">
+    <input id="input-search" class="input-search bg-color-grey-1 color-grey-4 font-1" type="text" placeholder="Pesquisar por um dev...">
+    <button id="btn-search" class="img-search"></button>
+  </aside>
+  <main class="container">
+    <ul class="cards-wrapper">
+    </ul>
+  </main>
 
+  <script src="../../scripts/api.js"></script>
+  <script src="./index.js"></script>
 </body>
 
 </html>
